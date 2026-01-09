@@ -6,7 +6,7 @@
   tasks:
     - name: Print tower_project_scm_branch
       debug:
-        msg: "tower_project_scm_branch = {{ tower_project_scm_branch | default('UNDEFINED') }}"
+        msg: "tower_job_scm_branch = {{ tower_job_scm_branch | default('UNDEFINED') }}"
 
     - name: Print all SCM-related variables
       debug:
